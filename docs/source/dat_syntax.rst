@@ -1,11 +1,5 @@
-{% extends "templates/base.html" %}
-{% set A_TITLE = "title of this article" %}
-{% set A_CATEGORY = "category" %}
-
-{% block content %}
-
-
 Синтаксис датников
+==================
 
 Раздел:
 ```
@@ -40,4 +34,3 @@ BlockName ~{
 [проверить, можно ли пихать произвольные параметры и блоки в файлы настроек]
 [проверить, поддерживают ли модинфо блоки]
 
-{% endblock %}

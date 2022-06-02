@@ -1,10 +1,6 @@
-{% extends "templates/base.html" %}
-{% set A_TITLE = "title of this article" %}
-{% set A_CATEGORY = "category" %}
+Про языки
+=========
 
-{% block content %}
-
-# Про языки.
 [возможны фактические ошибки]
 
 Игра поддерживает множество языков. 
@@ -20,5 +16,3 @@ tldr:
 - `install_<lang_long>.txt.Lang` - это `<lang_short>`
 - `install_<lang_long>.txt.LangName` - это отображается в настройках
 
-
-{% endblock %}

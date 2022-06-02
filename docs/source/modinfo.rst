@@ -1,10 +1,7 @@
-{% extends "templates/base.html" %}
-{% set A_TITLE = "ModuleInfo.txt" %}
-{% set A_CATEGORY = "category" %}
+ModuleInfo.txt
+==============
 
-{% block content %}
-
-# ModuleInfo.txt - файл, содержащий основную информацию о моде
+ModuleInfo.txt - файл, содержащий основную информацию о моде
 
 - `Languages` - список поддерживаемых языков через запятую (например, `Rus, Eng`). При проверке языковой совместимости мода с текущим языком сравниваются все перечисленные языки с параметром `Lang=` ванильного инсталла [см. про языки]
 Далее `<lang_short>` означает краткую запись текущего языка (например, Rus или Eng).
@@ -21,5 +18,3 @@
 
 - `SmallDescription`, `SmallDescription<lang_short>` - короткое описание мода, отображается в модменеджере в общем списке модов
 - `FullDescription`, `FullDescription<lang_short>` - полное описание мода, отображается в окошке с информацией о моде
-
-{% endblock %}

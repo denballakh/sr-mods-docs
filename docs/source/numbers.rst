@@ -1,10 +1,5 @@
-{% extends "templates/base.html" %}
-{% set A_TITLE = "title of this article" %}
-{% set A_CATEGORY = "category" %}
-
-{% block content %}
-
-# Про строки и числа.
+Про строки и числа
+==================
 
 Если строка конвертируется в логическое значение истина/ложь, то:
 - `Yes`, `yes`, `true`, `True`, `TRUE`, `1` - истина
@@ -21,6 +16,3 @@
 - 1024 = 1024
 - 1.5 = 15
 - 4_294_967_297 = 1
-
-
-{% endblock %}

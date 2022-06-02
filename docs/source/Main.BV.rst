@@ -1,10 +1,5 @@
-{% extends "templates/base.html" %}
-{% set A_TITLE = "title of this article" %}
-{% set A_CATEGORY = "category" %}
-
-{% block content %}
-
-# Про `Main.BV.OnSave`, `Main.BV.OnLoad`, `Main.BV.OnStart`.
+Про `Main.BV.OnSave`, `Main.BV.OnLoad`, `Main.BV.OnStart`
+=========================================================
 
 `Main.dat`:
 ```
@@ -35,4 +30,3 @@ BV ~{
 [см. код в датниках]
 [см. генерация галактики]
 [см. функцию GenerateCodeStringFromBlock]
-{% endblock %}
