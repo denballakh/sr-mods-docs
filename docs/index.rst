@@ -1,5 +1,5 @@
-Welcome to this documentation! x2
-=================================
+Welcome to this documentation!
+==============================
 
 .. note::
 
