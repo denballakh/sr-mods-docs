@@ -19,4 +19,12 @@ Contents
 .. toctree::
 
    usage
-   api
+   dat_syntax
+   interface
+   langs_and_translations
+   merge_and_priority
+   modinfo
+   numbers
+   Main.BV
+   packages
+   add_music
