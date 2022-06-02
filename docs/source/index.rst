@@ -10,7 +10,6 @@ Contents
 
 .. toctree::
 
-   usage
    dat_syntax
    interface
    langs_and_translations
