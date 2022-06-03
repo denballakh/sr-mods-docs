@@ -1,8 +1,7 @@
 Про `Main.BV.OnSave`, `Main.BV.OnLoad`, `Main.BV.OnStart`
 =========================================================
 
-``Main.dat``:
-.. code-block::
+``Main.dat``::
 
     BV ~{
         OnSave ~{
